@@ -1,9 +1,4 @@
-## Commits
+# GitHub-Foundations
+A repo for practicing and study for the GitHub Foundations certificate.
 
-## Branches
-
-## Remotes
-
-## Stashing
-
-## Merging
+To open github.dev environment, keep pressing period (".").
