@@ -45,6 +45,7 @@ git config --global core.editor emacs
 Make a commit and commit message without opening an editor.
 ```sh
 git commit -m "add another exclamation"
+```
 
 ## Branches
 
