@@ -29,6 +29,18 @@ git clone https://github.com/arturo-melero/GitHub-Foundations.git
 cd GitHub-Foundations
 ```
 
+> You'll need to generate a Personal Access Token (PAT):
+https://github.com/settings/tokens
+
+You will use the PAT as your password when you login
+
+### SSH
+
+```ssh
+git clone git@github.com:arturo-melero/GitHub-Foundations.git
+cd GitHub-Foundations
+```
+
 ## Commits
 
 When we want to commit code we can write git commit which will open up the commit edit message in the editor of choice.
