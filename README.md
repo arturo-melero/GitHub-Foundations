@@ -1,2 +1,4 @@
 # GitHub-Foundations
-A repor for practicing and study for the GitHub Foundations certificate
+A repo for practicing and study for the GitHub Foundations certificate.
+
+To open github.dev environment, keep pressing period (".").
