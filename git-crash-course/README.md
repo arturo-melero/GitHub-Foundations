@@ -41,6 +41,14 @@ git clone git@github.com:arturo-melero/GitHub-Foundations.git
 cd GitHub-Foundations
 ```
 
+### GitHub CLI
+
+Install the CLI according to your SO. You can follow the guideline in `https://cli.github.com/`. Once done:
+```sh
+gh auth login
+gh repo clone https://github.com/arturo-melero
+```
+
 ## Commits
 
 When we want to commit code we can write git commit which will open up the commit edit message in the editor of choice.
@@ -60,6 +68,21 @@ git commit -m "add another exclamation"
 ```
 
 ## Branches
+
+List of branches
+```
+git branch
+```
+
+Create a new branch
+```
+git branch branch-name
+```
+
+Checkout the branch
+```
+git checkout branch-name
+```
 
 ## Remotes
 
@@ -107,6 +130,24 @@ When you first install Git on a machine you are supposed to setup your name and 
 ```sh
 git config --global user.name "Arturo Melero"
 git config --global user.email arturom@example.com
+```
+
+We will need to create our own SSH rsa key pair
+
+```sh
+ssh-keygen -t rsa
+```
+
+For WSL users and if you create a non default key you might need to add it.
+
+```sh
+eval `ssh-agent`
+ssh-add /home/.../name
+```
+
+We can test our connection here:
+```
+ssh -T git@github.com
 ```
 
 ## Log
