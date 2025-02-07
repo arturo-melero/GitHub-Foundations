@@ -116,7 +116,7 @@ git merge main
 When we want to stage changes that will be included in the commit we can use the period (.) to add all possible files.
 
 ```
-git add readme.md
+git add readme.
 git add .
 ```
 
